@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+header {
+  padding: 20px;
+  background-color: white;
+}
+
+header > h1 {
+  margin: 0;
+  font-family: "Bungee Shade", cursive;
+  color: darkslategray;
+  text-align: center;
+  font-size: 55px;
+  background-clip: text;
+}
+
+header > h1:hover {
+  color: lightcoral;
+  cursor: pointer;
+}
+
+.score-board {
+  font-family: "Iceland", cursive;
+  position: relative;
+  border: 2px solid darkslategray;
+  border-radius: 5px;
+  width: 200px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  color: darkslategray;
+  font-size: 55px;
+  text-align: center;
+}
+
+.badge {
+  background-color: mistyrose;
+  color: darkslategray;
+  font-size: 25px;
+  padding: 10px 15px;
+}
+
+#user-label {
+  border: 1px solid darkslategray;
+  border-radius: 5px;
+  position: absolute;
+  top: 22px;
+  left: -35px;
+}
+
+#computer-label {
+  border: 1px solid darkslategray;
+  border-radius: 5px;
+  position: absolute;
+  top: 22px;
+  right: -35px;
+}
+
+.show-result {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
+  color: darkslategray;
+  text-align: center;
+  font-weight: bold;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid black;
+  border-radius: 50%;
+  max-width: 20%;
+  padding: 40px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: rgba(43, 94, 94, 0.115);
+  transition: transform 0.3s ease;
+}

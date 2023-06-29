@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="rock-paper-scissors.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Let's Play!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock - Paper - Scissors!</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">you</div>
+      <div id="computer-label" class="badge">cmp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="show-result">
+      <p>Paper covers Rock! You won!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="/images/rock.png" alt="" />
+      </div>
+
+      <div class="choice" id="paper">
+        <img src="/images/paper.png" alt="" />
+      </div>
+
+      <div class="choice" id="scissors">
+        <img src="/images/scissors.png" alt="" />
+      </div>
+    </div>
+    <script defer src="rock-paper-scissors.js"></script>
+  </body>
+</html>
